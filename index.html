@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ptBR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinâmica de passarelas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body id='body'>
+    <h3>&nbsp;&nbsp;&nbsp;Autovetor</h3>
+    <div id='container1'>
+        <div id='row1'>
+            <label for="">Tabela </label>
+            <input id='tablePath' type="text">
+            <button onclick="getTablePath()">Procurar</button>
+        </div>  
+        <div id='row2'>
+            <div>
+                <input type="radio" checked id="vertical" name="direction" value="vertical">
+                <label for="vertical">Vertical</label><br>
+            </div>
+            <div>
+                <input type="radio" id="lateral" name="direction" value="lateral">
+                <label for="lateral">Lateral</label><br>
+            </div>
+        </div>
+    </div>
+    <h3>&nbsp;&nbsp;&nbsp;Props da passarela</h3>
+    <div id='container2'>
+        <div id='row'>
+            <label for="">Frequência natural </label><input id="naturalFrequency" type="number"><br>
+        </div>
+        <div id='row'>
+            <label for="">Massa </label><input id="mass" type="number"><br>
+        </div>
+        <div id='row'>
+            <label for="">Taxa de amortecimento </label><input id="damping" type="number"><br>
+        </div>
+        <div id='row'>
+            <label for="">Comprimento </label><input id="lenght" type="number"><br>
+        </div>
+        <div id='row'>
+            <label for="">Largura </label><input id="width" type="number"><br>
+        </div>
+
+    </div>
+    <div id='container3'>
+        <button onclick="go()">Go</button>
+    </div>
+</body>
+</html>
