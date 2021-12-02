@@ -5,3 +5,12 @@ Como provocação, serão apresentados a seguir exemplos de passarelas e pontes 
 
 ## Millennium Bridge
 ![Animação-millenniumBridge](https://thumbs.gfycat.com/FatalLavishArgusfish-max-1mb.gif)
+
+A Ponte do Milênio (em inglês: Millennium Bridge) é uma ponte suspensa pedonal fabricada em aço, localizada na cidade de Londres, na Inglaterra. Foi inaugurada em 2000. Cruza o Rio Tâmisa, unindo a zona de Bankside com a City de Londres. Situa-se entre a ponte de Southwark e a ponte de Blackfriars. Foi a primeira a ser construída na cidade desde que foi feita a ponte da Torre, em 1894. É propriedade da Bridge House Estates, uma fundação de beneficência que também se encarrega da manutenção e que é supervisionada pela City of London Corporation. 
+No momento da inauguração, qunado a ação dos transuntes se iniciou, se percebeu uma excessiva vibração lateral na estrutura. Então, logo após a inauguração ela passou por intervenções estruturais para atenuar as vibrações laterais.
+
+## Ponte Presidente Costa e Silva ou Rio-Niterói
+![Animaçõa-PonteRioNiteroi](https://www.skyscrapercity.com/attachments/rio-niteroi-gif.1465005/)
+
+Ponte Presidente Costa e Silva, popularmente conhecida como Ponte Rio–Niterói, é uma ponte que atravessa a Baía de Guanabara, no estado do Rio de Janeiro, no Brasil. Ela conecta os municípios do Rio de Janeiro e Niterói. Seu nome é em homenagem a Artur da Costa e Silva, presidente durante a ditadura militar brasileira que deu a ordem para a construção da estrutura. A estrutura liga a Ponta do Caju (Rio de Janeiro) à Avenida do Contorno (Niterói). Antes do funcionamento da ponte, era necessário percorrer cerca de 120 km em estradas ou optar pelo uso de balsas. A escolha do traçado diz respeito ao menor impacto no tráfego marítimo, o custo total menor que outras opções e a ligação aos subúrbios cariocas. 
+Para ventos de velocidade em torno dos 60km/h essa ponte apresentava vibrações verticais no vão central acentuadas (Amplitude de mais de 1m). Apesar de não por em risco a integridade estrutura, esses deslocamentos excessivos se mostravam desconfortáveis para os usuários, que não se arriscavam a circular pela ponte em momentos de extremos deslocamentos. Dessa forma, foram inseridos atenuadores passivos para absorver parte da energia, de forma a reduzir a vibração. 
