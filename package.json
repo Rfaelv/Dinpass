@@ -1,7 +1,7 @@
 {
   "name": "Dinpass",
   "version": "1.0.0",
-  "description": "",
+  "description": "Programa para auxiliar no processo de análise dinâmica de passarelas",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
