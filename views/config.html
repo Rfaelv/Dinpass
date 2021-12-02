@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configurações</title>
+    <link rel="stylesheet" href="config-style.css">
+</head>
+<body onload="setValues()">
+    <div id='container1'>
+        <div id='row'>
+            <label for="">Número de pontos de Gauss </label><input id="ptGauss" type="number"><br>
+        </div>
+        <div id='row'>
+            <label for="">Tempo inicial </label><input id="t0" type="number"><br>
+        </div>
+        <div id='row'>
+            <label for="">Tempo final </label><input id="tf" type="number"><br>
+        </div>
+        <div id='row'>
+            <label for="">Número de intervalos </label><input id="nInterval" type="number"><br>
+        </div>
+    </div>
+    <div id='container2'>
+        <button onclick="apply()">Aplicar</button>
+    </div>
+    <script src="config-script.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+html {
+    font-family: 'Segoe UI';
+    font-size: small;
+}
+#body {
+    background-color: #FFFFFF;
+    padding-top: 2px;  
+}
+#container1 {
+    background-color:  #F8F9FA;
+    padding: 5px;
+    margin-top: 1px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+#container2 {
+    padding-top: 20px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+input {
+    width: 60px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: none;
+    border: solid #E2E6EA;
+    border-width: thin;
+    border-radius: 2px;
+    transition: 0.3s;
+    padding-left: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: 'Segoe UI';
+    font-size: small;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+input:focus {
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+    border-color:dodgerblue;
+    box-shadow: 0 0 1px 0 dodgerblue;
+}
+#row {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+button {
+    background-color: #edf0f3b6;
+    border: solid #E2E6EA;
+    border-width: thin;
+    font-family: 'Segoe UI';
+    width: 80px;
+    height: 25px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #e2e6eabd;
+    border: solid #E2E6EA;
+    border-width: thin;
+}
+button:active {
+    background-color: #E2E6EA;
+    border-color: dodgerblue;
+    box-shadow: 0 0 3px 0 dodgerblue;
+    transition: 0.1s;
+
+}
+button:focus {
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;  
+}

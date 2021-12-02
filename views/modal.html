@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinâmica de passarelas - Resultados</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body onload="setData()">
+    <h3></h3>
+    <div id='container1'>
+        <div>
+            <label>Massa modal = </label>
+            <label id="massaModal"></label><br>
+            <div id="results">
+            <label>Máx. desloc. = </label>
+            <label id="maxDesloc"></label>
+            </div>
+        </div>
+        <div>
+            <label>Rigidez modal = </label>
+            <label id="rigidezModal"></label><br>
+            <div id="results">
+            <label>Máx. veloc. = </label>
+            <label id="maxVeloc"></label>
+            </div>
+        </div>
+        <div>
+            <label >Harmônico do caminhar = </label>
+            <label id="harmonico"></label><br>
+            <div id="results">
+            <label >Máx. acel. = </label>
+            <label id="maxAcel"></label>
+            </div>
+        </div>
+    </div>
+    <div id="imageTitle">
+        <label id="title" for=""></label>
+    </div>
+    <div id='image'>
+        <img id="img">
+        <input id="save" type="image" onclick="imageDownload()" src="../assets/download.png">
+    </div>
+    <div id='container2'>
+        <button onclick="previous()">Anterior</button>
+        <button onclick="next()">Próximo</button>
+    </div>
+</body>
+</html>
