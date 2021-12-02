@@ -1,4 +1,4 @@
-[Home](./) [About](./about.html)  [Vibração em passarelas](./documentation.html)
+[Home](./) | [About](./about.html) | [Vibração em passarelas](./documentation.html)
 # Dinâmica de passarelas 
 
 
