@@ -2,7 +2,7 @@
 
 # Exemplos de vibração em passarelas
 
-Como provocação, serão apresentados a seguir exemplos de passarelas e pontes com problema de vibração.
+Como provocação, serão apresentados a seguir exemplos de passarelas e pontes que apresentam problemas de vibração.
 
 ## Millennium Bridge
 ![Animação-millenniumBridge](https://thumbs.gfycat.com/FatalLavishArgusfish-max-1mb.gif)
