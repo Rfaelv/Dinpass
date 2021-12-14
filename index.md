@@ -4,7 +4,7 @@
 
 
 
-- ## Propósito
+## Propósito
 
 Realizar a análise dinâmica de passarelas para um modo de vibrar previamente definido. Para o carregamento dinâmico atuante   sobre a passarela é considerado o modelo sugerido pelo Guia Sétra para a Classe 1 que representa passarelas em regiões  urbanas com grande tráfego de pedestres.
 
@@ -14,7 +14,7 @@ Realizar a análise dinâmica de passarelas para um modo de vibrar previamente d
 
 .
 
-- ## Guia de utilização
+## Guia de utilização
 
 ### 1. Planilha com deslocamentos do modo a ser analisado
 
@@ -36,7 +36,7 @@ Ao clicar em "Go" a análise será iniciada. Ao ser finalizada serão mostradas 
 
 
 
-- ## Etapas da análise
+## Etapas da análise
 
 ### 1. Obtenção dos pontos da função autovetor (Φ)
 
