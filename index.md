@@ -10,7 +10,7 @@ Realizar a análise dinâmica de passarelas para um modo de vibrar previamente d
 
 .
 
->![](assets/interface.png)
+>![Interface](https://github.com/Rfaelv/Dinpass/blob/main/assets/interface.png?raw=true)
 
 .
 
@@ -20,7 +20,7 @@ Realizar a análise dinâmica de passarelas para um modo de vibrar previamente d
 
 Planilha contendo coordenadas ao longo da passarela com os respectivos deslocamentos do modo e na direção de vibração em análise. A coluna de posição deve ser nomeada por "x" ou "X" e a coluna de deslocamentos por "u" ou "U" assim como está representado na imagem abaixo.
 
-![](assets/exemplo-planilha.PNG)
+![](https://github.com/Rfaelv/Dinpass/blob/main/assets/exemplo-planilha.PNG?raw=true)
 
 ### 2. Input
 
@@ -46,7 +46,7 @@ Os dados de deslocamentos importados da planilha são normalizados (divididos pe
 
 ##### Para o cálculo da massa modal foi utilizada a equação abaixo
 
-![](assets/massaModal.PNG)
+![](https://github.com/Rfaelv/Dinpass/blob/main/assets/massaModal.PNG?raw=true)
 
 `L : Comprimento da passarela`
 
@@ -56,13 +56,13 @@ Os dados de deslocamentos importados da planilha são normalizados (divididos pe
 
 ##### Para o cálculo da rigidez modal foi utilizada a equação abaixo
 
-![](assets/rigidezModal.PNG)
+![](https://github.com/Rfaelv/Dinpass/blob/main/assets/rigidezModal.PNG?raw=true)
 
 `ω : Frequência angular do modo natural de vibração estudado`
 
 ##### Para o cálculo da força modal foi utilizada a equação abaixo
 
-![](assets/forçaModal.PNG)
+![](https://github.com/Rfaelv/Dinpass/blob/main/assets/for%C3%A7aModal.PNG?raw=true)
 
 `D : Largura da passarela`
 
@@ -76,7 +76,7 @@ Os dados de deslocamentos importados da planilha são normalizados (divididos pe
 
 - ##### Para o primeiro harmônico do caminhar humano:
 
-![](assets/harmonico1.PNG)
+![](https://github.com/Rfaelv/Dinpass/blob/main/assets/harmonico1.PNG?raw=true)
 
 `d : Densidade de pessoas na passarela`
 
@@ -89,7 +89,7 @@ Os dados de deslocamentos importados da planilha são normalizados (divididos pe
 
 - ##### Para o segundo harmônico do caminhar humano:
 
-![](assets/harmonico2.PNG)
+![](https://github.com/Rfaelv/Dinpass/blob/main/assets/harmonico2.PNG?raw=true)
 
 >Todas as integrações foram realizadas através da Quadratura de Gauss-Legendre
 
@@ -97,7 +97,7 @@ Os dados de deslocamentos importados da planilha são normalizados (divididos pe
 
 ##### A equação a ser resolvida está representada abaixo
 
-![](assets/eqGeralDinamica.PNG)
+![](https://github.com/Rfaelv/Dinpass/blob/main/assets/eqGeralDinamica.PNG?raw=true)
 
 `m : Massa modal`
 
@@ -111,6 +111,6 @@ Os dados de deslocamentos importados da planilha são normalizados (divididos pe
 
 ##### A resolução é feita através do método numérico Runge-Kutta. Mais especificamente o RK4, que é o Runge-Kutta de 4° ordem. Para isso a equação geral da dinâmica de 2° ordem é reduzida em duas equações diferenciais de 1° ordem, gerando o sistema representado abaixo
 
-![](assets/eqGeralDinamica-sistema.PNG)
+![](https://github.com/Rfaelv/Dinpass/blob/main/assets/eqGeralDinamica-sistema.PNG?raw=true)
 
 > Para dúvidas ou sugestões entre em contado com `rafa10031999@gmail.com`
