@@ -10,7 +10,7 @@ Realizar a análise dinâmica de passarelas para um modo de vibrar previamente d
 
 .
 
->![Interface](https://github.com/Rfaelv/Dinpass/blob/main/assets/interface.png?raw=true)
+![Interface](https://github.com/Rfaelv/Dinpass/blob/main/assets/interface.png?raw=true)
 
 .
 
