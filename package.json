@@ -7,18 +7,26 @@
     "start": "electron .",
     "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/icons/mac/icon.icns --prune=true --out=release-builds",
     "package-win": "electron-packager . Dinpass --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"dinamica-de-passarelas\"",
-    "package-linux": "electron-packager . electron-tutorial-app --overwrite --asar=true --platform=linux --arch=x64 --icon=assets/icons/png/1024x1024.png --prune=true --out=release-builds"
+    "package-linux": "electron-packager . electron-tutorial-app --overwrite --asar=true --platform=linux --arch=x64 --icon=assets/icons/png/1024x1024.png --prune=true --out=release-builds",
+    "build": "electron-builder build --win --publish never",
+    "deploy": "electron-builder build --win --publish always"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/Rfaelv/Dinpass.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "electron": "10.1.5",
+    "electron-builder": "^22.14.5",
     "electron-packager": "^15.1.0",
     "electron-wix-msi": "^3.0.4"
   },
   "dependencies": {
     "child-process": "^1.0.2",
+    "electron-updater": "^4.6.1",
     "fs": "0.0.1-security",
     "materialize-css": "^1.0.0-rc.2",
     "path": "^0.12.7"

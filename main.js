@@ -1,8 +1,11 @@
 const { app, BrowserWindow, Menu } = require('electron')
 const { nativeTheme } = require('electron/main')
+const { autoUpdater } = require('electron-updater')
+
+let win
 
 function createWindow () {
-  const win = new BrowserWindow({
+  win = new BrowserWindow({
     title: 'Dinâmica de passarelas',
     width: 480,
     height: 515,
@@ -81,6 +84,10 @@ function createWindow () {
   win.on('close', function(event) {
     app.quit()
   })
+
+  win.once('ready-to-show', () => {
+    autoUpdater.checkForUpdatesAndNotify();
+  });
 }
 
 app.whenReady().then(createWindow)
@@ -96,5 +103,12 @@ app.on('activate', () => {
     createWindow()
   }
 })
+
+autoUpdater.on('update-available', () => {
+  win.webContents.send('update_available');
+});
+autoUpdater.on('update-downloaded', () => {
+  win.webContents.send('update_downloaded');
+});
 
 
