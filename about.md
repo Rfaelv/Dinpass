@@ -1,7 +1,7 @@
 [Início](./) &nbsp;&nbsp;&nbsp;&nbsp;  [Sobre](./about.html) &nbsp;&nbsp;&nbsp;&nbsp; [Vibração em passarelas](./gallery.html)
 
 # Sobre
-O Dinpass foi um desenvolvido no decorrer de uma matéria optativa de dinâmica de estruturas da Universidade Federal Fluminense ministrada pela professora Eliane Maria Lopes Carvalho. O intuito do programa é facilitar o pós-processamento dos resultados de dinâmica obtidos de programas de análise, tais como o SAP2000.
+O Dinpass foi desenvolvido no decorrer de uma matéria optativa de dinâmica de estruturas da Universidade Federal Fluminense ministrada pela professora Eliane Maria Lopes Carvalho. O intuito do programa é facilitar o pós-processamento dos resultados de dinâmica obtidos de programas de análise, tais como o SAP2000.
 
 ## Pessoas
 O programa foi desenvolvido por [Rafael Vieira de Oliveira](http://lattes.cnpq.br/1851035547350298).
