@@ -1,4 +1,4 @@
-[Home](./) &nbsp;&nbsp;&nbsp;&nbsp;  [About](./about.html) &nbsp;&nbsp;&nbsp;&nbsp; [Vibração em passarelas](./gallery.html)
+[Início](./) &nbsp;&nbsp;&nbsp;&nbsp;  [Sobre](./about.html) &nbsp;&nbsp;&nbsp;&nbsp; [Vibração em passarelas](./gallery.html)
 
 # Exemplos de vibração em passarelas e pontes
 
