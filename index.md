@@ -28,11 +28,11 @@ Importe a planilha do item 1 e preencha os demais campos. Use valores no SI.
 
 ### 3. Configurações da análise
 
-No menu há uma seção de configurações. Nela é possível alterar o número de pontos de Gauss que será usado nas integrações numéricas, o tempo inicial e final da análise e o número de intervalos para a resolução da equação diferencial da dinâmica para o problema. Esses valores devem ser ajustados conforme a análise.
+No menu, há uma seção de configurações. Nela, é possível alterar o número de pontos de Gauss que será usado nas integrações numéricas, o tempo inicial e final da análise e o número de intervalos para a resolução da equação diferencial da dinâmica para o problema. Esses valores devem ser ajustados conforme a análise.
 
 ### 4. Output
 
-Ao clicar em "Go" a análise será iniciada. Ao ser finalizada serão mostradas as propriedades dinâmicas da passarela e as respostas no domínio do tempo, assim como alguns resultados em coordenadas geométricas.
+Ao clicar em "Go", a análise será iniciada. Ao ser finalizada, serão mostradas as propriedades dinâmicas da passarela e as respostas no domínio do tempo, assim como alguns resultados em coordenadas geométricas.
 
 
 
@@ -109,7 +109,7 @@ Os dados de deslocamentos importados da planilha são normalizados (divididos pe
 
 `F : Força modal`
 
-##### A resolução é feita através do método numérico Runge-Kutta. Mais especificamente o RK4, que é o Runge-Kutta de 4° ordem. Para isso a equação geral da dinâmica de 2° ordem é reduzida em duas equações diferenciais de 1° ordem, gerando o sistema representado abaixo
+##### A resolução é feita através do método numérico Runge-Kutta. Mais especificamente o RK4, que é o Runge-Kutta de 4° ordem. Para isso, a equação geral da dinâmica de 2° ordem é reduzida em duas equações diferenciais de 1° ordem, gerando o sistema representado abaixo
 
 ![](https://github.com/Rfaelv/Dinpass/blob/main/assets/eqGeralDinamica-sistema.PNG?raw=true)
 
