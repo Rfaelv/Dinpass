@@ -2,6 +2,6 @@ theme: jekyll-theme-cayman
 title: Dinpass
 description: User guide
 show_downloads: false
-index.md: Welcome to Dinpass
+index.md: Dinpass
 about.md: Dinpass
 documentation.md: Dinpass
