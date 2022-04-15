@@ -113,4 +113,5 @@ Os dados de deslocamentos importados da planilha são normalizados (divididos pe
 
 ![](https://github.com/Rfaelv/Dinpass/blob/main/assets/eqGeralDinamica-sistema.PNG?raw=true)
 
+
 > Para dúvidas ou sugestões entre em contado com `rafa10031999@gmail.com`
